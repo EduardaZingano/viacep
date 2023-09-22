@@ -22,13 +22,13 @@ Cenários de Teste:
 
 Cenário 1: Cep válido
 
-Dado que estou testando o viacep
-Quando eu testar um cep existente na url
-Entao o teste deve me retorar o status 200
-E ainda verificar se alguma palavra do corpo da requisição de acordo com as informações que este cep dará existe
+ - Dado que estou testando o viacep
+ - Quando eu testar um cep existente na url
+ - Entao o teste deve me retorar o status 200
+ - E ainda verificar se alguma palavra do corpo da requisição de acordo com as informações que este cep dará existe
 
-Cenário 2: Cep inválido
+  Cenário 2: Cep inválido
 
-Dado que estou testando o viacep
-Quando eu testar um cep que não existe na url
-Entao o teste deve me retorar o status 400
+ - Dado que estou testando o viacep
+ - Quando eu testar um cep que não existe na url
+ - Entao o teste deve me retorar o status 400
